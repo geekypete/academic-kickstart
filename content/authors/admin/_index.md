@@ -22,8 +22,8 @@ bio: My current research involves applying topological data analysis to gain ins
 
 interests:
 - Computational Topology 
-- Scientific Communication 
-- Open Access Publication
+- Data Visualization 
+- Open Access Publishing 
 
 education:
   courses:

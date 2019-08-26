@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Peter Lawson 
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: NSF Fellow and PhD Candidate in Bioinnovation
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Tulane University 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My current research involves applying topological data analysis to gain insights into topological differences in cancer morphology at the histological level and their importance in diagnosis and prognosis.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Computational Topology 
+- Scientific Communication 
+- Open Access Publication
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Bioinnovation 
+    institution: Tulane University
+    year: 2019 (Expected)
+  - course = BS in Computer Science, Systems Concentration
+    institution: University of North Carolina at Wilmington 
+    year: 2014
+  - course: BS in Biology 
+    institution: University of North Carolina at Wilmington 
+    year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

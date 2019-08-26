@@ -51,7 +51,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/geekypete
-  icon: linkedin
+- icon: linkedin
   icon_pack: fas
   link: https://www.linkedin.com/in/lawsonpeter/
 # Link to a PDF of your resume/CV from the About widget.

@@ -70,6 +70,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I received my B.S. in Biology and Computer Science from the University of North Carolina Wilmington. My undergraduate research focused on ensembling machine learning approaches for the enhancement of phenotype prediction in maize. As an NSF IGERT Ph.D. fellow in Bioinnovation, I joined the Translational Biophotonics Laboratory in 2015 to continue work at the intersection of biology and computer science. My current research involves applying topological data analysis to gain insights into topological differences in cancer morphology at the histological level and their importance in diagnosis and prognosis.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I started this website as means of documenting various thoughts and insights generated during the course of my research rather than letting it fall off into the ether.

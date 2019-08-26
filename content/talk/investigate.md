@@ -3,6 +3,6 @@ title: "Investigating topological descriptors for the grading of prostate cancer
 date: 2017-07-10
 draft: false 
 event: "MSU Computer Science Seminar Series"
-location: "Montana State University, Bozeman, MA"
+location: "Montana State University, Bozeman, MT"
 ---
 

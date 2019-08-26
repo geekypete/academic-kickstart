@@ -11,6 +11,8 @@ day_night = true
 #   Choose from `default`, `classic`, `rose`, or `mr_robot`.
 font = "default"
 
+name = "Test"
+
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
 description = ""
 

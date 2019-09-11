@@ -8,7 +8,6 @@ tags:
   - "manim"
   - "visualization"
 comments: true
-lastmod: false
 ---
 I was hoping to generate some explanatory math videos in the style of [3blue1brown](https://www.3blue1brown.com/) and fortunately the creator Grant Sanderson made his **m**athematical **anima**tion library (Manim) available at [3bib/manim](https://github.com/3b1b/manim). The repo has instructions for installation on Linux, but as I use Arch it was not as intuitive as I would have liked. As such I am throwing my installation process up here for anyone to duplicate that is running into trouble.
 

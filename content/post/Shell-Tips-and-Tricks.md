@@ -7,6 +7,7 @@ tags:
   - "ssh"
   - "shell"
   - "bash"
+comments: true
 ---
 
 [hugo doc]:   http://hugo.spf13.com/overview/introduction

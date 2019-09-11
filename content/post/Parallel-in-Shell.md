@@ -8,6 +8,7 @@ tags:
   - "parallel"
   - "shell"
   - "bash"
+comments: true
 ---
 
 Having recently needed to convert the format of an enormous quantity of images I stumbled upon GNU parallel, a powerful and simple utility for replacing shell loops with a parallel alternative.  

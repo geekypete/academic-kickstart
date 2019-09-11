@@ -9,6 +9,7 @@ tags:
   - "OpenCV"
   - "PlaidML"
 draft: false 
+comments: true
 ---
 
 A while ago my research lab acquired a new workstation, but my PI, well meaning as he is, purchased a system with an AMD GPU (FirePro W7100) rather than an Nvidia card, so CUDA is not an option. For the longest time I thought deep learning was not going to happen with TensorFlow using an OpenCV library, but I recently stumbled on a library `PlaidML`, a tensor compiler that allows for the use of OpenCL devices, and sits as a layer underneath common machine learning frameworks. I use an Arch based distro (Manjaro) so this guide is specific to Arch, but it's likely that this process is not too different for other distros. 

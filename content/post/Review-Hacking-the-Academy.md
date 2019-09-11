@@ -6,6 +6,7 @@ categories:
 draft: true
 tags:
   - "open access"
+comments: true
 ---
 *Hacking the Academy* is in an exercise in contradictions, a text aimed squarely at the entrenched humanities scholarly tradition. An open call was given for submissions along the theme (hacking the academy) but only a week, a speck considering the glacial timelines of academic publishing.  The books subversive content, culled from decidely un-academic sources Twitter, emails, blogs, even a Ted talk, serve as examplars to the goal of *Hacking the Academy* : academia as we have understand it is dead, we must evolve. The submissions were curated heavily and the final work stands as a testament to that process, a somewhat odd editorial approach considering a crowdsourced upvoting schema is more consistent with what the book proposes. The book may seem ready to undermine academia as we know it, but it is encaspsulated in the very medium it purports to replace (academic print publishing). In this way *Hacking the Academy* acts as a bridge between world's, that of the academia as it is, and academia as we can conceive of it to be.
 

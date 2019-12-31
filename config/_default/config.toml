@@ -24,7 +24,7 @@ googleAnalytics = "UA-146436592-1"
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "minimal"
+theme = "academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = false

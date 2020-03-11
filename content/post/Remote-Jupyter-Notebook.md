@@ -8,7 +8,7 @@ It is often desirable to connect to a remote Jupyter notebook instance in order 
 
 Configuring a Remote Jupyter Session
 --------
-- First, ensure Jupyter notebook is installed on both the host system (the remote workstation you would like the Jupyter session to execute on) and the local system (the laptop or other computer you would like to run interactively run the Jupyter session in a browser while it runs on the host).
+- First, ensure Jupyter notebook is installed on both the host system (the remote workstation you would like the Jupyter session to execute on) and the local system (the laptop or other computer you would like to interactively run the Jupyter session in a browser while it runs on the host).
 - SSH into your remote host, and execute the following command:
 ```
 jupyter notebook --no-browser --port=8889

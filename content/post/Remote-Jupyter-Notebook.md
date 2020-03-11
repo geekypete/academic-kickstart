@@ -26,7 +26,7 @@ You should see output similar to that below:
 ```
 - In your local computer open a terminal and execute the following command:
 ```
-ssh -N -f -L localhost:8888:localhost:8880 username@your_remote_host_ip
+ssh -N -f -L localhost:8888:localhost:8889 username@your_remote_host_ip
 # Update `username` to your username on your remote host
 # Update `your_remote_host_ip` to the ip address or alias of your remote host
 ```

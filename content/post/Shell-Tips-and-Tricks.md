@@ -10,13 +10,6 @@ tags:
 comments: true
 ---
 
-[hugo doc]:   http://hugo.spf13.com/overview/introduction
-[hugo local]: http://localhost:1313
-[gh pages]:   https://pages.github.com
-[aws s3]:     http://aws.amazon.com/s3/
-[github]:     https://github.com
-[gh windows]: https://windows.github.com
-[gh mac]:     https://mac.github.com
 
 This is a simple list of tips and tricks for the shell that I discovered over
 the course of many years of messing around in shell and wanted to coalesce into

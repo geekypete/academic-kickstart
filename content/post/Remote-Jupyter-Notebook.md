@@ -50,7 +50,7 @@ Replace the `userID` with your institutional userID for accessing your particula
 ```
 idev --port=7000:8888
 ```
-Notice that the port number,`7000`, is the same as above. If you change the port number in the previous command, ensure that the same port number is used in the above command as well.  
+Notice that the port number, `7000`, is the same as above. If you change the port number in the previous command, ensure that the same port number is used in the above command as well.  
 - Now you should have a running `idev` session. Please navigate to the directory of the Jupyter notebook you would like to run, then enter the following command:
 ```
 jupyter notebook

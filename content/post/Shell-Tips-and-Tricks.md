@@ -37,3 +37,11 @@ Here is a simple example where I use GNU parallel to parallelize the conversion 
 # Using 10 cores instead the default of all possible cores 
 parallel mogrify -j10 -verbose -format tif ::: *.svs
 ```  
+Showing Diskspace Usage by Directory
+--------
+I often work on HPC systems where I cannot easily install my usual disk usage monitoring utilities, like the highly recommended NCDU utility. Instead I need to resort to the `du` command to accomplish this task. One of the most common questions I have is how much space is each subdirectory in my current directory consuming. To see this, we can use the command:
+
+```
+du -h --max-depth=1 | sort -hr
+```
+This uses the disk usage (`du`) utility to list the disk usage of each subdirectory within the current directory by restricting the search to a max depth of 1, that is, it does not recursively list the contents of each directory, only the total disk usage of each subdirectory within the current directory. The `-h` command ensures that the results are printed in a human readable format. The pipe to `sort -hr` ensures that the results are sorted by size (`-h` is used as the original sizes were also printed in a human readable format, so this argument is necessary to sort them as such), and printed in descending order (by using `-r` for reverse).

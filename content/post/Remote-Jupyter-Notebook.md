@@ -36,4 +36,14 @@ localhost:8888
 ```
 You will be presented with a list of Jupyter notebooks present in the working directory of the remote host. Select the one you would like to work on. You should be able to work just as you would locally, except your code will be executed on the remote host, and any changes to your Jupyter notebook will be saved on the remote host.
 
+Configuring a Remote Jupyter Session on a High Performance Computer (HPC)
+------
+What if you would like to run a remote Jupyter instance on your institutional HPC? If you have the `idev` (`I`nteractive `DEV`elopment) application, developed by the Texas Advanced Computing Center (TACC) and deployed on many supercomputers, you will be able to do just that!
 
+First we will need to login to our HPC with port forwarding enabled:
+```
+ssh -L 8888:127.0.01:7000 userID@hpc.address.edu
+```
+Replace the `userID` with your institutional userID for accessing your particular HPC system. Replace the `hpc.address.edu` with the address you use to ssh into your HPC.
+
+Now start an idev session with port forwarding enabled. Feel free to configure your idev session as you see fit. If you are not familiar with idev, please refer to the guide here: https://portal.tacc.utexas.edu/software/idev#how-to-use-idev.

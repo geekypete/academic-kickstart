@@ -40,10 +40,23 @@ Configuring a Remote Jupyter Session on a High Performance Computer (HPC)
 ------
 What if you would like to run a remote Jupyter instance on your institutional HPC? If you have the `idev` (`I`nteractive `DEV`elopment) application, developed by the Texas Advanced Computing Center (TACC) and deployed on many supercomputers, you will be able to do just that!
 
-First we will need to login to our HPC with port forwarding enabled:
+- First we will need to login to our HPC with port forwarding enabled:
 ```
 ssh -L 8888:127.0.01:7000 userID@hpc.address.edu
 ```
-Replace the `userID` with your institutional userID for accessing your particular HPC system. Replace the `hpc.address.edu` with the address you use to ssh into your HPC.
+Replace the `userID` with your institutional userID for accessing your particular HPC system. Replace the `hpc.address.edu` with the address you use to ssh into your HPC. The port number, `7000`, was selected arbitrarily. Feel free to replace it with another port, as long as that port is not currently in use.
 
-Now start an idev session with port forwarding enabled. Feel free to configure your idev session as you see fit. If you are not familiar with idev, please refer to the guide here: https://portal.tacc.utexas.edu/software/idev#how-to-use-idev.
+- Now start an idev session with port forwarding enabled. Feel free to configure your idev session as you see fit. If you are not familiar with idev, please refer to the guide here: https://portal.tacc.utexas.edu/software/idev#how-to-use-idev. To start a basic idev session, with port forwarding, use the following command:
+```
+idev --port=7000:8888
+```
+Notice that the port number,`7000`, is the same as above. If you change the port number in the previous command, ensure that the same port number is used in the above command as well.  
+- Now you should have a running `idev` session. Please navigate to the directory of the Jupyter notebook you would like to run, then enter the following command:
+```
+jupyter notebook
+```
+- Now, on your local machine, open your web browser of choice, and enter the following into the address bar:
+```
+localhost:8888
+```
+You should now be able to connect to the remote Jupyter session running on your HPC. You may need to copy the token from your running idev Jupyter session in order to authenticate your local instance, but once that is done, you should be able to connect to the remote notebook. Now everything will be executed on the HPC!

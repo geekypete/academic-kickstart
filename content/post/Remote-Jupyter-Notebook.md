@@ -42,7 +42,7 @@ What if you would like to run a remote Jupyter instance on your institutional HP
 
 - First we will need to login to our HPC with port forwarding enabled:
 ```
-ssh -L 8888:127.0.01:7000 userID@hpc.address.edu
+ssh -L 8888:127.0.0.1:7000 userID@hpc.address.edu
 ```
 Replace the `userID` with your institutional userID for accessing your particular HPC system. Replace the `hpc.address.edu` with the address you use to ssh into your HPC. The port number, `7000`, was selected arbitrarily. Feel free to replace it with another port, as long as that port is not currently in use.
 

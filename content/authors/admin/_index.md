@@ -29,7 +29,7 @@ education:
   courses:
   - course: PhD in Bioinnovation 
     institution: Tulane University
-    year: 2012 (Expected)
+    year: 2020 (Expected)
   - course: BS in Computer Science, Systems Concentration
     institution: University of North Carolina at Wilmington 
     year: 2014

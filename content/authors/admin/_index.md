@@ -15,7 +15,7 @@ role: NSF Fellow and PhD Candidate in Bioinnovation
 # Organizations/Affiliations
 organizations:
 - name: Tulane University 
-  url: "tulane.edu"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My current research involves applying topological data analysis to gain insights into topological differences in cancer morphology at the histological level and their importance in diagnosis and prognosis.
@@ -44,7 +44,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:plawson@tulane.edu".
+  link: mailto:plawson@tulane.edu  # For a direct email link, use "mailto:plawson@tulane.edu".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=J4cTDBsAAAAJ&hl=en&oi=sra

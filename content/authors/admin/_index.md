@@ -15,7 +15,7 @@ role: NSF Fellow and PhD Candidate in Bioinnovation
 # Organizations/Affiliations
 organizations:
 - name: Tulane University 
-  url: ""
+  url: "tulane.edu"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My current research involves applying topological data analysis to gain insights into topological differences in cancer morphology at the histological level and their importance in diagnosis and prognosis.
@@ -64,7 +64,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "plawson@tulane.edu"
+email: pete@petelawson.com 
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
